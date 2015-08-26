@@ -30,7 +30,6 @@ var diem = "AM";
 
         var Eltime = document.getElementById('time');
             Eltime.textContent = hour + ":" + minutes + ":" + seconds + "" + diem;
-            Eltime.innerHTML = hour + ":" + minutes + ":" + seconds;
        setTimeout(DisplayDateAndTime,1000)
 
      }
